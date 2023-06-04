@@ -16,6 +16,10 @@ public class Feature : IComponent
     /// A description of the <see cref="Feature"/> and what it does, flavor text
     /// </summary>
     public string Description { get; set; }
+
+    /// <summary>
+    /// A short, data-driven summary of what the <see cref="Feature"/> does with minimal flavor text
+    /// </summary>
     public string ShortDescription { get; set; }
     
     /// <summary>
