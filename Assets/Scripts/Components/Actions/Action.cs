@@ -16,6 +16,10 @@ public class Action : IComponent
     /// A description of the <see cref="Action"/>, what it does and when it can be used
     /// </summary>
     public string Description { get; set; }
+
+    /// <summary>
+    /// A short, data-driven description of what the <see cref="Action"/> does
+    /// </summary>
     public string ShortDescription { get; set; }
     
     public void Perform() 
